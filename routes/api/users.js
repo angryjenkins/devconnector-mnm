@@ -4,8 +4,8 @@ const gravatar = require('gravatar');
 const bcrypt = require('bcryptjs')
 
 // load User model
-const User = require('../../models/User')
-;
+const User = require('../../models/User');
+
 // @route   GET apt/users/test
 // @desc    tests users route
 // @access     Public
